@@ -1,0 +1,17 @@
+{
+  "name": "node-metrics-demo",
+  "version": "1.0.0",
+  "description": "Demo app that saves metrics.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/app.js"
+  },
+  "author": "Grafana Labs",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.2",
+    "node-statsd": "^0.1.1",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
